@@ -1,0 +1,95 @@
+
+{% load static %}
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Pradeep Baghel</title>
+	<link href="{% static '/css/main.css'  %}" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	
+</head>
+<body>
+	<br>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-3">
+				<div class="card card-body h-100  border-info" id="profile-wrapper">
+					<img id="profile-pic" src="{% static 'image/pradeep.jpg' %}" >
+					<hr>
+					<h4><strong>Pradeep Baghel</strong></h4>
+					<p>I love coding, doing research, and collaborating with people to solve real-world problems.</p>
+				</div>
+			</div>
+
+			<div class="col-md-9">
+				<div class="card card-body h-100  border-info">
+					<h4><strong>First Job as a Developer</strong></h4>
+					<hr>
+					<p>I completed my B.Com graduation in 2023. Coming from a non-technical background, I initially found coding challenging when I joined my MCA program in June 2024.</p>
+
+					<p>At first, I couldn’t understand programming concepts, but instead of giving up, I started small — learning the basics of Java and Python. Step by step, my interest grew as I began to understand how code actually works. Today, I’m confident in building projects and applying what I learn to practical problems.</p>
+
+
+					<ul class="social-links">
+						<li><img class="social" src="{% static 'image/facebook.png' %}"></li>
+						<li><img class="social" src="{% static 'image/linkedin.png' %}"></li>
+						<li><img class="social" src="{% static 'image/twitter.png' %}"></li>
+						<li><img class="social" src="{% static 'image/git.png' %}"></li>
+					</ul>
+
+				</div>
+			</div>
+		</div>
+		<br>
+		<div class="row">
+			<div class="col-md-6">
+				<div class="card card-body h-100">
+					<h5><strong>My Experience as a Developer</strong></h5>
+					<hr>
+					<p>Currently, I am learning Django and working on my first full-stack project:</p>
+					<p>Employee Management System – A web application where employees can be added, updated, managed, and tracked. This project helped me understand how backend (Python + Django) and frontend (HTML, CSS, JavaScript) connect with databases (MySQL/PostgreSQL).</p>
+					<p>Through this, I’ve gained confidence in applying CRUD operations, authentication, and integrating real-world features into a project.</p>
+				</div>
+			</div>
+
+			<div class="col-md-6">
+				<div class="card card-body h-100">
+					<h5><strong>What I Know</strong></h5>
+					<hr>
+					<p><strong>Languages & Frameworks:</strong> Java (basic), Python, Django, HTML, CSS, JavaScript</p>
+					<p><strong>Databases:</strong> MySQL, PostgreSQL</p>
+					<p><strong>Other Tools:</strong> Git/GitHub</p>
+					<p><strong>Currently Learning:</strong> Django (advanced concepts), React, and exploring Machine Learning</p>
+				</div>
+			</div>
+		</div>
+		<br>
+		<div class="row">
+			<div class="col-md-6">
+				<div class="card card-body h-100">
+					<h5><strong>How I Learn</strong></h5>
+					<hr>
+					<p>I break down complex concepts into small, testable projects.</p>
+					<p>I prefer hands-on learning by building first, then improving.</p>
+					<p>I use documentation and reverse engineering as guides to understand things deeply.</p>
+				</div>
+			</div>
+
+			<div class="col-md-6">
+				<div class="card card-body h-100">
+					<h5><strong>My Short Term Goals</strong></h5>
+				<hr>
+				<p>Strengthen my skills in full-stack development.</p>
+				<p>Build more real-world projects beyond my Employee Management System.</p>
+				<p>Join a company as a Software Developer / Full-Stack Developer where I can learn from experienced mentors and grow faster</p>
+
+				</div>
+			</div>
+		</div>
+		<br>
+	</div>
+
+
+</body>
+</html>
