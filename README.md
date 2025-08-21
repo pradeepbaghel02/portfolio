@@ -54,7 +54,10 @@ A personal portfolio website built with **Django** to showcase my projects, skil
 
 ## 📸 Screenshots
 
-<img width="1208" height="1789" alt="127 0 0 1_8000_" src="https://github.com/user-attachments/assets/f60a85e8-9f0e-4e61-9c5f-cccd989190f8" />
+<img width="1919" height="597" alt="Screenshot 2025-08-21 233453" src="https://github.com/user-attachments/assets/076d51dd-7af2-4eeb-9164-2fcb99eaeea8" />
+<img width="1919" height="852" alt="Screenshot 2025-08-21 233511" src="https://github.com/user-attachments/assets/055cc8f2-7c4e-41c0-bdbf-f72b86d0fe51" />
+
+
 
 
 ## 🚀 Deployment
